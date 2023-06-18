@@ -1,0 +1,96 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital@0;1&family=Poppins:wght@400;700&display=swap');
+
+/* Global */
+
+body {
+    margin: 0;
+    font-family: 'Open Sans', Helvetica, sans-serif;
+}
+
+img {
+    max-width: 100%;
+    max-height: 100%;
+    width: auto;
+    height: auto;
+}
+
+/* Hero section */
+
+/* Nav */
+
+.hero {
+    background-color: #1F2937;
+    display: flex;
+    flex-direction: column;
+    padding: 0 140px 80px 140px;
+}
+
+.nav {
+    padding: 20px 0;
+    margin-bottom: 40px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav a {
+    text-decoration: none;
+    color: #afb3b9;
+}
+
+.logo {
+    height: auto;
+    width: 150px;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+    display: flex;
+    gap: 20px;
+}
+
+/* Header */
+
+.header {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 64px;
+}
+
+.header h1,
+.header p {
+    color: #FAF9F6;
+}
+
+.header h1 {
+    margin: 0 0 20px 0;
+    font-size: 48px;
+    font-family: 'Poppins', Helvetica, sans-serif;
+    line-height: 1.2;
+}
+
+.header p {
+    font-size: 16px;
+    line-height: 1.5;
+}
+
+.hero-image {
+    height: auto;
+    width: 1400px;
+}
+
+/* Team section */
+
+.team {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.card {
+    width: 300px;
+    flex: none;
+}
