@@ -14,16 +14,26 @@ img {
     height: auto;
 }
 
-/* Hero section */
+h2 {
+    font-size: 40px;
+    font-family: 'Poppins', Helvetica, sans-serif;
+}
 
-/* Nav */
+button {
+    padding: 10px 20px;
+    font-size: 16px;
+}
+
+/* Hero section */
 
 .hero {
     background-color: #1F2937;
     display: flex;
     flex-direction: column;
-    padding: 0 140px 80px 140px;
+    padding: 0 120px 80px 120px;
 }
+
+/* Hero > Nav */
 
 .nav {
     padding: 20px 0;
@@ -50,7 +60,7 @@ ul {
     gap: 20px;
 }
 
-/* Header */
+/* Hero > Header */
 
 .header {
     display: flex;
@@ -84,13 +94,28 @@ ul {
 /* Team section */
 
 .team {
+    padding: 20px 160px 0px 160px;
+    text-align: center;
+}
+
+.team-members {
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
-    gap: 20px;
+    column-gap: 40px;
+    row-gap: 30px;
 }
 
 .card {
     width: 300px;
-    flex: none;
+    flex: 0 1 auto;
+}
+
+.member.name {
+    font-size: 22px;
+    margin: 14px 0 0 0;
+}
+
+.member.role {
+    margin: 8px 0 16px 0;
 }
