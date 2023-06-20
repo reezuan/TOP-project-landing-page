@@ -1,6 +1,10 @@
-@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital@0;1&family=Poppins:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400&family=Poppins:wght@400;700&display=swap');
 
 /* Global */
+
+* {
+    box-sizing: border-box;
+}
 
 body {
     margin: 0;
@@ -113,9 +117,40 @@ ul {
 
 .member.name {
     font-size: 22px;
+    font-weight: 600;
     margin: 14px 0 0 0;
 }
 
 .member.role {
-    margin: 8px 0 16px 0;
+    font-size: 18px;
+    margin: 5px 0 16px 0;
+}
+
+/* Quote section */
+
+.quote {
+    background-color: #E5E7EB;
+    padding: 100px 120px 80px;
+}
+
+.quote figure {
+    margin: 0 auto;
+    width: 600px;
+    display: flex;
+    flex-direction: column;
+}
+
+.quote blockquote {
+    flex: initial;
+    align-self: flex-start;
+    color: #1F2937;
+    font-size: 36px;
+    font-weight: 300;
+    margin: 0;
+}
+
+.quote figcaption {
+    align-self: flex-end;
+    font-size: 24px;
+    font-weight: 600;
 }
