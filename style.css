@@ -198,3 +198,18 @@ ul {
     font-size: 14px;
     margin: 0 0 14px 0;
 }
+
+/* Footer section */
+
+.footer {
+    background-color: #1F2937;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 15px;
+}
+
+.footer p {
+    color: #F9FAF8;
+    font-size: 13px;
+}
