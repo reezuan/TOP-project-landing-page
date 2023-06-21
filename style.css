@@ -45,7 +45,7 @@ button {
 /* Hero > Nav */
 
 .nav {
-    padding: 20px 0;
+    padding: 10px 0;
     margin-bottom: 40px;
     display: flex;
     justify-content: space-between;
@@ -55,11 +55,12 @@ button {
 .nav a {
     text-decoration: none;
     color: #F9FAF8;
+    font-size: 14px;
 }
 
 .logo {
     height: auto;
-    width: 150px;
+    width: 120px;
 }
 
 ul {
@@ -78,20 +79,17 @@ ul {
     gap: 64px;
 }
 
-.header h1,
-.header p {
-    color: #FAF9F6;
-}
-
 .header h1 {
     margin: 0 0 20px 0;
+    color: #F9FAF8;
     font-size: 48px;
     font-family: 'Poppins', Helvetica, sans-serif;
     line-height: 1.2;
 }
 
 .header p {
-    font-size: 16px;
+    font-size: 18px;
+    color: #E5E7EB;
     line-height: 1.5;
 }
 
@@ -103,7 +101,7 @@ ul {
 /* Team section */
 
 .team {
-    padding: 20px 160px 0px 160px;
+    padding: 20px 160px 50px;
     text-align: center;
 }
 
@@ -111,8 +109,7 @@ ul {
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
-    column-gap: 40px;
-    row-gap: 30px;
+    gap: 40px;
 }
 
 .card {
@@ -135,7 +132,7 @@ ul {
 
 .quote {
     background-color: #E5E7EB;
-    padding: 100px 120px 80px;
+    padding: 100px 120px;
 }
 
 .quote figure {
