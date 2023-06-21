@@ -25,7 +25,12 @@ h2 {
 
 button {
     padding: 10px 20px;
-    font-size: 16px;
+    font-size: 14px;
+    font-weight: 600;
+    background-color: #3882F6;
+    color: #F9FAF8;
+    border-style: none;
+    border-radius: 10px;
 }
 
 /* Hero section */
@@ -153,4 +158,43 @@ ul {
     align-self: flex-end;
     font-size: 24px;
     font-weight: 600;
+}
+
+/* CTA section */
+
+.cta {
+    padding: 80px 120px;
+}
+
+.cta-card {
+    background-color: #3882F6;
+    color: #F9FAF8;
+    padding: 20px 100px;
+    display: flex;
+    gap: 80px;
+    align-items: center;
+    justify-content: center;
+}
+
+.cta-card div {
+    flex: 3 3 0;
+    justify-self: flex-end;
+}
+
+.cta-card button {
+    flex: 1 1 0;
+    max-width: max-content;
+    justify-self: flex-start;
+    border: 1px solid #F9FAF8;
+}
+
+.cta-card h2 {
+    font-size: 20px;
+    line-height: 1;
+    margin: 16px 0 12px 0;
+}
+
+.cta-card p {
+    font-size: 14px;
+    margin: 0 0 14px 0;
 }
